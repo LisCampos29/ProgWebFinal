@@ -1,0 +1,29 @@
+.paginador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.paginador a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.paginador a.activa {
+  background-color: #e7c6ff;
+  color: #000;
+}
+
+.paginador a:hover {
+  background-color: #fcd5ce;
+}
+
+
